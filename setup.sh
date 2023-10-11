@@ -1,6 +1,6 @@
 export DEBIAN_FRONTEND=noninteractive
 
-apt-get install nginx php php-fpm -y
+apt-get install nginx php php-fpm git -y
 
 mkdir -p /var/www/arjuna.a01.com
 
