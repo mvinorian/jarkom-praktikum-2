@@ -10,5 +10,6 @@ $TTL            604800
 @               IN      A       192.169.3.2	; IP Abimanyu
 www             IN      CNAME   abimanyu.a01.com.
 parikesit       IN      A       192.169.3.2	; IP Abimanyu
+www.parikesit	IN	CNAME	parikesit.abimanyu.a01.com.
 ns1             IN      A       192.169.2.2	; IP Werkudara
 baratayuda      IN      NS      ns1
