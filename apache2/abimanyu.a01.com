@@ -8,8 +8,8 @@
 	# However, you must set it for any further virtual host explicitly.
 	ServerName abimanyu.a01.com
 
-	ServerAdmin webmaster@localhost
-	DocumentRoot /var/www/abimanyu.a01
+	ServerAdmin mvinorian@gmail.com
+	DocumentRoot /var/www/abimanyu.a01.com
 
 	# Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
 	# error, crit, alert, emerg.
@@ -17,8 +17,8 @@
 	# modules, e.g.
 	#LogLevel info ssl:warn
 
-	ErrorLog ${APACHE_LOG_DIR}/error.log
-	CustomLog ${APACHE_LOG_DIR}/access.log combined
+	ErrorLog ${APACHE_LOG_DIR}/abimanyu.a01.com-error.log
+	CustomLog ${APACHE_LOG_DIR}/abimanyu.a01.com-access.log combined
 
 	# For most configuration files from conf-available/, which are
 	# enabled or disabled at a global level, it is possible to
