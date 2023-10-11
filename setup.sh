@@ -1,6 +1,6 @@
 export DEBIAN_FRONTEND=noninteractive
 
-apt-get install nginx php php-fpm -y
+apt-get install nginx php php-fpm git -y
 
 cp -r ~/arjuna.a01.com /var/www
 cp -r ~/abimanyu.a01.com /var/www
