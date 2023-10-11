@@ -1,4 +1,4 @@
-apt-get install bind9 -y
+apt-get install bind9 git -y
 
 cp ~/named.conf.local /etc/bind/named.conf.local
 
