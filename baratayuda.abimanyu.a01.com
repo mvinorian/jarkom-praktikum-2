@@ -10,3 +10,5 @@ $TTL            604800
 @               IN      A       192.169.3.2             ; IP Abimanyu
 www             IN      CNAME   baratayuda.abimanyu.a01.com.
 rjp             IN      A       192.169.3.2             ; IP Abimanyu
+www.rjp		IN	CNAME	rjp.baratayuda.abimanyu.a01.com.
+
