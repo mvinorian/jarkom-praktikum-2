@@ -7,6 +7,6 @@ $TTL            604800
                                     604800 )            ; Negative Cache TTL
 ;
 @               IN      NS      baratayuda.abimanyu.a01.com.
-@               IN      A       192.169.3.3             ; IP Abimanyu
+@               IN      A       192.169.3.2             ; IP Abimanyu
 www             IN      CNAME   baratayuda.abimanyu.a01.com.
-rjp             IN      A       192.169.3.3             ; IP Abimanyu
+rjp             IN      A       192.169.3.2             ; IP Abimanyu
