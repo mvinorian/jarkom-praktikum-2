@@ -1,0 +1,10 @@
+$TTL                            604800
+@                               IN      SOA     abimanyu.a01.com. root.abimanyu.a01.com. (
+	                                        2023100903      ; Serial
+	                                           6048000      ; Refresh
+						     86400      ; Retry
+	                                           2419200      ; Expire
+						    604800 )    ; Negative Cache TTL
+;
+2.169.192.in-addr.arpa.         IN      NS      abimanyu.a01.com.
+1                               IN      PTR     abimanyu.a01.com.

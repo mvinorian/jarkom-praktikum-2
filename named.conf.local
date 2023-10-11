@@ -1,0 +1,20 @@
+zone "arjuna.a01.com" {
+        type master;
+        notify yes;
+        also-notify { 192.169.2.2; };
+        allow-transfer { 192.169.2.2; };
+        file "/etc/bind/praktikum/arjuna.a01.com";
+};
+
+zone "abimanyu.a01.com" {
+        type master;
+        notify yes;
+        also-notify { 192.169.2.2; };
+        allow-transfer { 192.169.2.2; };
+        file "/etc/bind/praktikum/abimanyu.a01.com";
+};
+
+zone "2.169.192.in-addr.arpa" {
+        type master;
+        file "/etc/bind/praktikum/2.169.192.in-addr.arpa";
+};
