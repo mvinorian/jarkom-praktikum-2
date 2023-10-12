@@ -14,7 +14,7 @@ zone "abimanyu.a01.com" {
         file "/etc/bind/praktikum/abimanyu.a01.com";
 };
 
-zone "2.169.192.in-addr.arpa" {
+zone "3.169.192.in-addr.arpa" {
         type master;
-        file "/etc/bind/praktikum/2.169.192.in-addr.arpa";
+        file "/etc/bind/praktikum/3.169.192.in-addr.arpa";
 };

@@ -10,6 +10,6 @@ cp ~/arjuna.a01.com /etc/bind/praktikum/arjuna.a01.com
 
 cp ~/abimanyu.a01.com /etc/bind/praktikum/abimanyu.a01.com
 
-cp ~/2.169.192.in-addr.arpa /etc/bind/praktikum/2.169.192.in-addr.arpa
+cp ~/3.169.192.in-addr.arpa /etc/bind/praktikum/3.169.192.in-addr.arpa
 
 service bind9 restart
