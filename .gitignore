@@ -1,1 +1,10 @@
-.*
+.bash_history
+.bashrc
+.git/
+.gitconfig
+.gns3_perms
+.local/
+.profile
+.ssh/
+.vim/
+.viminfo
