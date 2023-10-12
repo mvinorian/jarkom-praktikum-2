@@ -17,6 +17,9 @@ cp ~/apache2/ports.conf /etc/apache2/ports.conf
 ln -sf /etc/nginx/sites-available/arjuna.a01.com /etc/nginx/sites-enabled
 rm -f /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 
+rm -f /etc/apache2/.htpasswd
+htpasswd -cb /etc/apache2/.htpasswd Wayang baratayudaa01
+
 a2ensite abimanyu.a01.com
 a2ensite parikesit.abimanyu.a01.com
 a2ensite rjp.baratayuda.abimanyu.a01.com
