@@ -10,10 +10,10 @@ zone "abimanyu.a01.com" {
         file "/var/lib/bind/abimanyu.a01.com";
 };
 
-zone "2.169.192.in-addr.arpa" {
+zone "3.169.192.in-addr.arpa" {
         type slave;
         masters { 192.169.2.1; };
-        file "/var/lib/bind/2.169.192.in-addr.arpa";
+        file "/var/lib/bind/3.169.192.in-addr.arpa";
 };
 
 zone "baratayuda.abimanyu.a01.com" {
